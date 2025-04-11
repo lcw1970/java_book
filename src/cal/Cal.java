@@ -3,14 +3,11 @@ package cal;
 public class Cal {
 
     void powerOn(){
-        System.out.println("계산기 실행");
-
+        System.out.println("계산기 실행 (종료 0)");
     }
 
-    void powerOff(String word){
-        if (word.equals("stop")){
-            System.out.println("계산기 종료");
-        }
+    void powerOff(){
+        System.out.println("계산기 종료");
     }
 
     int add(int x,int y){
