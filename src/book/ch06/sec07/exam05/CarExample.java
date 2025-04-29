@@ -1,4 +1,6 @@
-package book.ch06.sec07.exam04;
+package book.ch06.sec07.exam05;
+
+
 
 public class CarExample {
     public static void main(String[] args) {
@@ -22,5 +24,6 @@ public class CarExample {
         System.out.println("car4 model: "+car4.model);
         System.out.println("car4 color: "+car4.color);
         System.out.println("car4 maxSpeed: "+car4.maxSpeed);
+
     }
 }

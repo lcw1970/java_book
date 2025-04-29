@@ -1,14 +1,14 @@
 package book.ch06.sec07.exam02;
 
 public class Korean {
-    String nation = "Korea";
+    // 필드 선언
+    String nation = "대한민국";
     String name;
     String ssn;
-    int age;
 
-    Korean(String name,String ssn,int age){
-        this.name = name;
-        this.ssn = ssn;
-        this.age = age;
+    // 생성자 선언
+    public Korean(String n,String s){
+        name = n;
+        ssn = s;
     }
 }

@@ -20,20 +20,28 @@ public class CalMain {
 
         sc.nextLine();
         System.out.print("+ - x %: ");
-        String word= sc.nextLine();
+        String word1= sc.nextLine();
 
-        result =select(mycal,word,x,y);
+        result =select(mycal,word1,x,y);
         System.out.println(result);
 
         while (true){
-            return;
+            System.out.print("+ - x % (종료는 off입력): ");
+            String word2= sc.nextLine();
+            if (word2.equals("off")) {
+                mycal.powerOff();
+                break;
+            }
+            System.out.print("숫자를 입력해주세요: ");
+            int z = sc.nextInt();
+            result =select(mycal,word2,result,z);
+            System.out.println(result);
+            sc.nextLine();
         }
 
 
-
-
         }
-    static double select(Cal cal,String word,int x,int y){
+    static double select(Cal cal,String word,double x,int y){
         double result= 0;
         if (word.equals("+")){
             result = cal.add(x,y);
@@ -52,6 +60,7 @@ public class CalMain {
         }
         return result;
     }
+
     }
 
 
