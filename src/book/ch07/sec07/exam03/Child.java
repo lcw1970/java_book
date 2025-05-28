@@ -1,12 +1,9 @@
 package book.ch07.sec07.exam03;
 
-public class Child extends Parent {
-    int age;
-    public Child(int age){
-        super("이재현");
-        this.age = age;
-    }
+public class Child extends Parent{
+    public String field2;
+
     public void method3() {
-        System.out.println("Child-method3()");
+        System.out.println("Child.method3");
     }
 }

@@ -1,12 +1,10 @@
 package book.ch07.sec04.exam02;
 
-public class Airplane {
-    // 메소드 선언
+public class AirPlane {
 
     public void land() {
         System.out.println("착륙합니다.");
     }
-
     public void fly() {
         System.out.println("일반 비행합니다.");
     }
