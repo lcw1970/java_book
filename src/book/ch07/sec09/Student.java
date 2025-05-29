@@ -9,7 +9,7 @@ public class Student extends Person{
         this.studentNo = studentNo;
     }
 
-    public void study() {
-        System.out.println("공부를 합니다.");
+    public void study(){
+        System.out.println("공부를 합니다");
     }
 }

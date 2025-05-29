@@ -5,11 +5,11 @@ public class InstanceofExample {
         System.out.println("name: "+person.name);
 
 
-        if (person instanceof Student student) {
-            System.out.println("studentNo: "+student.studentNo);
+        if (person instanceof Student student){
+            System.out.println("StudentNo: "+student.studentNo);
             student.study();
         }
-        else {
+        else{
             person.walk();
         }
     }
