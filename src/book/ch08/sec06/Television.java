@@ -1,5 +1,4 @@
-package book.ch08.sec05;
-
+package book.ch08.sec06;
 
 
 public class Television implements RemoteControl {

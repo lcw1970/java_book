@@ -1,4 +1,4 @@
-package book.ch08.sec05;
+package book.ch08.sec06;
 
 public interface RemoteControl {
     // 상수  필드
@@ -19,5 +19,8 @@ public interface RemoteControl {
             System.out.println("무음을 해체합니다.");
             setVolume(1);
         }
+    }
+    static void changeBattery() {
+        System.out.println("리모콘 건전지를 교환합니다.");
     }
 }
